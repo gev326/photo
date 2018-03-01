@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Full Name</th>
+      <th>Address</th>
+      <th>Desired City</th>
+      <th>Desired State</th>
+      <th>Desired Zip</th>
+
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.first_name %></td>
+
+
+
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+</body>
+</html>
