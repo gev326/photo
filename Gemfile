@@ -33,6 +33,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'paperclip'
 gem 'geocoder'
 gem 'devise'
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
 
 
 # Use Capistrano for deployment
